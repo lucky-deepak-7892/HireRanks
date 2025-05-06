@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>HireRank Landing Page</title>
+   <link rel="stylesheet" href="styles.css"/>
+   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
+ 
+ </head>
+ <body>
+   <header>
+     <h1>HireRank</h1>
+     <div class="menu">
+       <a href="#features">Features</a>
+       <a href="#testimonials">Testimonials</a>
+       <a href="#leaderboard">Leaderboard</a>
+       <a href="login.html">Join</a>
+       <a href="signup.html"> sign up</a>
+       
+     </div>
+   </header>
+   <section id="hero">
+     <h1>Skill. Rank. Get Hired.</h1>
+     <p>
+       The ultimate bridge between top talent and companies. Showcase your skills,
+       rise through ranks, and unlock career-defining opportunities.
+     </p>
+     <div class="cta-buttons">
+       <a href="dashboard.html">
+         <button id="Studentbtn">Join as Student</button>
+       </a>
+     </div>
+     <div class="arrow-icon">
+       <span>&#8595;</span>
+     </div>
+   </section>
+   <section id="tests">
+     <h2>Available Tests</h2>
+     <div class="test-cards">
+       <div class="test-card">
+         <h3>DSA</h3>
+         <p>  Easy level /Medium level/ High level </p>
+         <button onclick="takeTest('DSA')">Take Test</button>
+       </div>
+       <div class="test-card">
+         <h3>Aptitude</h3>
+       
+         <button onclick="takeTest('Aptitude')">Take Test</button>
+       </div>
+     </div>
+   </section>
+ 
+   <section id="leaderboard">
+     <h2>Live Leaderboard</h2>
+     <select id="skillFilter">
+       <option value="All">All Skills</option>
+       <option value="DSA">DSA</option>
+       <option value="Aptitude">Aptitude</option>
+       
+     </select>
+ 
+     <div class="leaderboard-table">
+       <table>
+         <thead>
+           <tr>
+             <th>Rank</th>
+             <th>Student Name</th>
+           
+           </tr>
+         </thead>
+         <tbody id="leaderboardBody">
+           <tr>
+             <td>#1</td>
+             <td>Luckey</td>
+           
+           </tr>
+           <tr>
+             <td>#2</td>
+             <td>Ravi</td>
+           
+           
+           </tr>
+           <tr>
+             <td>#3</td>
+             <td>Sneha</td>
+           
+           </tr>
+         </tbody>
+       </table>
+     </div>
+   </section>
+ 
+   <section class="company-names">
+     <h2>Trusted by Top Companies</h2>
+     <div>
+       <div class="company-name">Google</div>
+       <div class="company-name">Amazon</div>
+       <div class="company-name">Microsoft</div>
+       <div class="company-name">Flipkart</div>
+       <div class="company-name">Zomato</div>
+     </div>
+   </section>
+ 
+   <section id="cta">
+     <h2>Join 14,000+ students & land your dream job today</h2>
+     <p>Take the first step toward your tech career. Companies are hiring every day.</p>
+     <a href="signup.html">
+   <button class="cta-button">Get Started Now</button>
+ </a>
+ 
+   </section>
+ 
+   <script src="script.js"></script>
+ </body>
+ </html>

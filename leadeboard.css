@@ -1,0 +1,50 @@
+.leaderboard-section {
+    padding: 40px 20px;
+    background-color: #f9fafb;
+    text-align: center;
+  }
+  
+  .leaderboard-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #4f46e5;
+    margin-bottom: 20px;
+  }
+  
+  .filter {
+    margin-bottom: 20px;
+  }
+  
+  .filter select {
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  .leaderboard-table {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 16px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .leaderboard-table th {
+    background-color: #eef2ff;
+    color: #4f46e5;
+  }
+  
+  .leaderboard-table tr:hover {
+    background-color: #f3f4f6;
+  }
+  

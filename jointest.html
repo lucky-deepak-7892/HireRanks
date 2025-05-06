@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>Skill Test | HireRank</title>
+   <link rel="stylesheet" href="jointest.css" />
+ </head>
+ <body>
+   <header>
+     <h1>HireRank - Skill Test</h1>
+   </header>
+ 
+   <main>
+     <div id="test-container" class="hidden">
+       <div id="question-box">
+         <h2 id="question-text">Loading question...</h2>
+         <ul id="options-list"></ul>
+       </div>
+       <button id="next-btn">Next</button>
+     </div>
+ 
+     <div id="result-container" class="hidden">
+       <h2>Test Completed!</h2>
+       <p id="score-display"></p>
+       <button onclick="location.reload()">Retake Test</button>
+     </div>
+ 
+     <div id="start-container">
+       <h2>Ready to test your skills?</h2>
+       <button id="start-btn">Start Test</button>
+     </div>
+   </main>
+ 
+   <script src="jointest.js"></script>
+ </body>
+ </html>
